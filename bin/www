@@ -1,0 +1,8 @@
+#! /bin/bash
+
+if [ $SL_ENV -eq 1 ]
+then
+    cd /mnt/project
+    npm install
+    node server.js
+fi
